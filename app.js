@@ -159,6 +159,7 @@ for (let i = 0; i < completedTasks.children.length; i++) {
   //bind events to list items chldren(tasksIncompleted)
   bindTaskEvents(completedTasks.children[i], taskIncomplete);
 }
+
 // Issues with usability don't get seen until they are in front of a human tester.
 
 //prevent creation of empty tasks.
